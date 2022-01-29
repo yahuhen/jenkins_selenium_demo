@@ -12,7 +12,7 @@ public class DemoTest {
     @Test
     public void sampleTest() {
 
-        System.setProperty("chromeoptions.args", "--no-sandbox,--disable-gpu,--disable-dev-shm-usage");
+        System.setProperty("chromeoptions.args", "--no-sandbox");
         System.setProperty("webdriver.chrome.driver", "/usr/lib/chromium/chrome");
 
         Configuration.browser = "chrome";
